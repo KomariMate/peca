@@ -3,8 +3,35 @@
 
 body
 {
+	background-image: url(bg.jpg);
 	background-size: 100% auto;
 	line-height:2em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Tahoma, Geneva, sans-serif ;
+	margin-left: 40%;
+	color: #38271d;
+}
+
+.tartalom{
+	background-color: white;
+	opacity: 70%;
+	padding: 20px;
+}
+
+h1{
+	color: #1c1815;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #1c1815 ;
+	text-transform: lowercase;
+	font-size: 24px;
+	text-decoration: underline;
+	
 }
 
 img
