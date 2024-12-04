@@ -13,17 +13,13 @@ body
 	color: #38271d;
 }
 
-.tartalom{
-	background-color: white;
-	opacity: 70%;
-	padding: 20px;
-}
-
 h1{
 	color: #1c1815;
 	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
+	text-shadow:2px 2px 5px  rgba(0,0,0,0.7);
+	line-height:1.5em;
 }
 
 h2{
@@ -33,6 +29,10 @@ h2{
 	text-decoration: underline;
 	font-variant: small-caps;
 	
+}
+
+th{
+	text-align: center;
 }
 
 .tablazat{
@@ -50,18 +50,16 @@ img
 
 #tartalom
 {
-	box-shadow: -5px 5px 10px 7px rgba(0,0,0,0.7);	
-}
-
-h1
-{
-	text-shadow:2px 2px 5px  rgba(0,0,0,0.7);
-	line-height:1.5em;
+	box-shadow: -5px 5px 10px 7px rgba(0,0,0,0.7);
+	background-color: white;
+	opacity: 70%;
+	padding: 20px;
 }
 
 .logo{
 	width: 40%;
-	margin-right: 0px;
+	float: right;
+	margin: 1px;
 	padding: 15px;
 }
 
