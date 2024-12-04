@@ -31,13 +31,21 @@ h2{
 	text-transform: lowercase;
 	font-size: 24px;
 	text-decoration: underline;
+	font-variant: small-caps;
 	
+}
+
+.tablazat{
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
 }
 
 img
 {
 	border-radius:30px;	
 	box-shadow: 5px 5px 10px 7px rgba(0,0,0,0.7);
+	border: solid black 2px;
 }
 
 #tartalom
@@ -51,9 +59,17 @@ h1
 	line-height:1.5em;
 }
 
+.logo{
+	width: 40%;
+	margin-right: 0px;
+	padding: 15px;
+}
+
 li
 {
 	list-style-position:inside;
+	list-style-image: url(icon.png);
+	font-size: 20px;
 }
 
 p
